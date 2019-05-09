@@ -1,7 +1,7 @@
 function Letter(letterVal){
  this.letter=letterVal;
  this.guess = false;
-
+ 
 
 
 this.incorrect = function(){
