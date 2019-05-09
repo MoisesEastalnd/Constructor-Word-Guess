@@ -14,10 +14,10 @@ this.incorrect = function(){
 
 
 this.correct = function(){
-    if(this. letter === ){
+    if(this.guess === this.letter ){
         console.log("Correct!!")
         this.guess = true;
         return this.letter;
     }
 }
-}
+};
