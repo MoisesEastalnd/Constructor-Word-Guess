@@ -1,3 +1,3 @@
 function word(){
-    word = wordVal;
+    this.word = wordVal;
 }
