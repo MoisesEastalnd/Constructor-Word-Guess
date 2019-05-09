@@ -5,10 +5,19 @@ function Letter(letterVal){
 
 
 this.incorrect = function(){
-    if(this.letter){
+    if(this.letter === "_"){
         console.log ("Incorrect!!!")
     this.guess = false; 
-    return this.letter;
+    return "_";
+    }
+}
+
+
+this.correct = function(){
+    if(this. letter === ){
+        console.log("Correct!!")
+        this.guess = true;
+        return this.letter;
     }
 }
 }
